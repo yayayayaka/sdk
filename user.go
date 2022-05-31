@@ -46,6 +46,7 @@ type TLSUsername string
 const (
 	TLSUsernameNone TLSUsername = "None"
 	TLSUsernameCN   TLSUsername = "CommonName"
+	TLSUsernameUID  TLSUsername = "UID"
 )
 
 // UserType defines the supported user types.
